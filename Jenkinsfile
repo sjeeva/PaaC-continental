@@ -10,7 +10,7 @@ pipeline {
         
         stage ("two") {
             steps {
-              sh "fail-for_sure"
+              sh "pwd"
             }
         }
         
